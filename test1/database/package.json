@@ -1,0 +1,27 @@
+{
+  "name": "database",
+  "type": "module",
+  "packageManager": "yarn@4.4.1",
+  "types": "./types",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.33.0",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.3",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "drizzle-kit": "^0.24.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "@typescript-eslint/utils": "^8.1.0"
+  },
+  "scripts": {
+    "drizzle:generate": "drizzle-kit generate",
+    "drizzle:migrate": "drizzle-kit migrate"
+  }
+}

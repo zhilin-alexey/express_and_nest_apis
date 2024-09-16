@@ -1,0 +1,8 @@
+{
+  "allowJs": true,
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "preserveSymlinks": true
+  }
+}

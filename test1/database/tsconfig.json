@@ -1,0 +1,26 @@
+{
+  "include": [
+    "*"
+  ],
+  "exclude": [
+    "*.d.ts",
+    "*.d.ts.map"
+  ],
+  "target": "esnext",
+  "module": "esnext",
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "lib": [
+      "ESNext"
+    ],
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "root": true,
+  "parserOptions": {
+    "project": [
+      "./jsconfig.json"
+    ],
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  }
+}

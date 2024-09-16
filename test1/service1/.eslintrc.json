@@ -1,0 +1,14 @@
+{
+  "plugins": [],
+  "extends": [
+    "prettier"
+  ],
+  "root": true,
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "semi": "error"
+  }
+}
